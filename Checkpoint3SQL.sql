@@ -124,4 +124,14 @@ CREATE TABLE Maintenance_Request(
     PRIMARY KEY (Request_Number)
 );
 
-
+CREATE TABLE Customer (
+    Customer_SSN VARCHAR(9) NOT NULL,
+    Start_Date DATE,
+    Facility_Distance int,
+    Facility_State VARCHAR(15),
+    Facility_City VARCHAR(30),
+    Facility_Street_Address VARCHAR(100),
+    FOREIGN KEY (Facility_State) REFERENCES Facility(Facility_State),
+    FOREIGN KEY (Facility_City) REFERENCES Facility(Facility_City),
+    FOREIGN KEY (Facility_Stre) REFERENCES Facility(Facility_Street_Address),
+);
