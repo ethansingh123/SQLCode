@@ -120,7 +120,7 @@ CREATE TABLE Maintenance_Request(
     Requester_SSN VARCHAR(9),
     Asset_Serial_Number int,
     FOREIGN KEY (Handler_SSN) REFERENCES Employee(Employee_SSN),
-    FOREIGN KEY (Requester_SSN) REFERENCES Customer(Customer_SSN),
+    FOREIGN KEY (Requester_SSN) REFERENCES Person(SSN),
     PRIMARY KEY (Request_Number)
 );
 
@@ -134,4 +134,44 @@ CREATE TABLE Customer (
     FOREIGN KEY (Facility_State) REFERENCES Facility(Facility_State),
     FOREIGN KEY (Facility_City) REFERENCES Facility(Facility_City),
     FOREIGN KEY (Facility_Stre) REFERENCES Facility(Facility_Street_Address),
+    FOREIGN KEY (Customer_SSN REFERENCES Person(SSN),
+    PRIMARY KEY (Customer_SSN)
 );
+
+CREATE TABLE Person (
+    SSN VARCHAR(9) NOT NULL,
+    First_Name VARCHAR(30),
+    Last_Name VARCHAR(30),
+    Middle_Initial CHAR,
+    Address VARCHAR(150),
+    Email VARCHAR(50),
+    PRIMARY KEY (SSN)
+);
+
+CREATE TABLE Maintenance_Case (
+    Service_Number int NOT NULL,
+    Date_In DATE,
+    Date_Out DATE,
+    Cost DECIMAL(10,2),
+    Maintenance_Request_Number int,
+    Employee_SSN VARCHAR(9),
+    FOREIGN KEY (Maintenance_Request_Number) REFERENCES Maintenance_Request(Request_Number),
+    FOREIGN KEY (Employee_SSN) REFERENCES Employee(Employee_SSN),
+    PRIMARY KEY (Service_Number)
+);
+
+CREATE TABLE Rental_Order (
+    Rental_Number int NOT NULL,
+    Check_Out_Date DATE,
+    Due_Date DATE,
+    Return_Date DATE,
+    Status VARCHAR(200),
+    Fees VARCHAR(100),
+    Customer_SSN VARCHAR(9),
+    Robot_Serial_Number int,
+    FOREIGN KEY (Customer_SSN) REFERENCES Customer(Customer_SSN),
+    FOREIGN KEY (Robot_Serial_Number) REFERENCES Robot(Robot_Serial_Number),
+    PRIMARY KEY(Rental_Number)
+);
+
+
