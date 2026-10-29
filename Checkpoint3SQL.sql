@@ -51,3 +51,25 @@ CREATE TABLE Driverless_Car (
     DC_Model_Number VARCHAR(50)
     PRIMARY KEY (DC_Serial_Number)
 );
+
+CREATE TABLE Robot (
+    Robot_Serial_Number VARCHAR(50) NOT NULL,
+    Status VARCHAR(50),
+    Warehouse_Location VARCHAR(100),
+    Warranty_Expiration DATE,
+    Robot_Model_Number VARCHAR(50),
+    DC_Serial_Number VARCHAR(50),
+    FOREIGN KEY (Robot_Model_Number) REFERENCES Model(Model_Number),
+    FOREIGN KEY (DC_Serial_Number) REFERENCES Driverless_Car(DC_Serial_Number)
+    PRIMARY KEY (Robot_Serial_Number)
+);
+
+CREATE TABLE Facility_Assets (
+    Serial_Number VARCHAR(50) NOT NULL,
+    Facility_State VARCHAR(15),
+    Facility_City VARCHAR(30),
+    Facility_Street_Address VARCHAR(150),
+    FOREIGN KEY (Facility_State) REFERENCES Facility(State),
+    FOREIGN KEY (Facility_City) REFERENCES Facility(City)
+    FOREIGN KEY(Facility_Street_Address) REFERENCES Facility(Street_Address)
+);
