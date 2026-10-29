@@ -9,7 +9,7 @@ CREATE TABLE Supply_Order (
     Facility_Street_Address VARCHAR(100),
     FOREIGN KEY (Manufacturer_Name) REFERENCES Manufacturer(Manufacturer_Name),
     FOREIGN KEY (Facility_State, Facility_City, Facility_Street_Address) REFERENCES Facility(State, City, Street_Address)
-    PRIMARY KEY (Order_Number);
+    PRIMARY KEY (Order_Number)
 );
 
 CREATE TABLE Robot_Model_Sensory_Suite (
@@ -24,8 +24,7 @@ CREATE TABLE Manufacturer(
     State varchar(15),
     City varchar(30),
     Street_Address varchar(100),
-    PRIMARY KEY (Manufacturer_Name);
-
+    PRIMARY KEY (Manufacturer_Name)
 );
 
 CREATE TABLE Model (
@@ -38,7 +37,7 @@ CREATE TABLE Model (
     Distance_Autonomy DECIMAL(10, 2),
     Max_Speed DECIMAL(10, 2),
     Manufacturer_Name VARCHAR(100),
-    FOREIGN KEY (Manufacturer_Name) REFERENCES Manufacturer(Manufacturer_Name)
+    FOREIGN KEY (Manufacturer_Name) REFERENCES Manufacturer(Manufacturer_Name),
     PRIMARY KEY (Model_Number)
 );
 
@@ -48,7 +47,7 @@ CREATE TABLE Driverless_Car (
     Status VARCHAR(50),
     Warehouse_Location VARCHAR(100),
     Warranty_Expiration DATE,
-    DC_Model_Number VARCHAR(50)
+    DC_Model_Number VARCHAR(50),
     PRIMARY KEY (DC_Serial_Number)
 );
 
@@ -60,7 +59,7 @@ CREATE TABLE Robot (
     Robot_Model_Number VARCHAR(50),
     DC_Serial_Number VARCHAR(50),
     FOREIGN KEY (Robot_Model_Number) REFERENCES Model(Model_Number),
-    FOREIGN KEY (DC_Serial_Number) REFERENCES Driverless_Car(DC_Serial_Number)
+    FOREIGN KEY (DC_Serial_Number) REFERENCES Driverless_Car(DC_Serial_Number),
     PRIMARY KEY (Robot_Serial_Number)
 );
 
@@ -85,7 +84,7 @@ CREATE TABLE First_Delivery_Case (
     Robot_Serial_Number VARCHAR(50) NOT NULL,
     Employee_SSN VARCHAR(9),
     FOREIGN KEY (Robot_Serial_Number) REFERENCES Robot(Robot_Serial_Number),
-    FOREIGN KEY (Employee_SSN) REFERENCES Employee(Employee_SSN)
+    FOREIGN KEY (Employee_SSN) REFERENCES Employee(Employee_SSN),
     PRIMARY KEY (Delivery_Date, Robot_Serial_Number)
 );
 
@@ -96,7 +95,7 @@ CREATE TABLE Facility_Assets (
     Facility_Street_Address VARCHAR(150),
     FOREIGN KEY (Facility_State) REFERENCES Facility(State),
     FOREIGN KEY (Facility_City) REFERENCES Facility(City)
-    FOREIGN KEY(Facility_Street_Address) REFERENCES Facility(Street_Address)
+    FOREIGN KEY(Facility_Street_Address) REFERENCES Facility(Street_Address),
     PRIMARY KEY (Serial_Number)
 );
 
@@ -108,9 +107,9 @@ CREATE TABLE Facility (
     Vehicle_Capacity int,
     Robot_Capacity int,
     Manager_SSN VARCHAR(9),
-    FOREIGN KEY (Manager_SSN) REFERENCES Employee(Employee_SSN);
-    PRIMARY KEY (State, Street_Address);
-)
+    FOREIGN KEY (Manager_SSN) REFERENCES Employee(Employee_SSN),
+    PRIMARY KEY (State, Street_Address)
+);
 
 CREATE TABLE Maintenance_Request(
     Request_Number int NOT NULL,
@@ -118,7 +117,7 @@ CREATE TABLE Maintenance_Request(
     Description VARCHAR(200),
     Handler_SSN VARCHAR(9),
     Requester_SSN VARCHAR(9),
-    Asset_Serial_Number int,
+    Asset_Serial_Number VARCHAR(50),
     FOREIGN KEY (Handler_SSN) REFERENCES Employee(Employee_SSN),
     FOREIGN KEY (Requester_SSN) REFERENCES Person(SSN),
     PRIMARY KEY (Request_Number)
@@ -133,8 +132,8 @@ CREATE TABLE Customer (
     Facility_Street_Address VARCHAR(100),
     FOREIGN KEY (Facility_State) REFERENCES Facility(Facility_State),
     FOREIGN KEY (Facility_City) REFERENCES Facility(Facility_City),
-    FOREIGN KEY (Facility_Stre) REFERENCES Facility(Facility_Street_Address),
-    FOREIGN KEY (Customer_SSN REFERENCES Person(SSN),
+    FOREIGN KEY (Facility_Street_Address) REFERENCES Facility(Facility_Street_Address),
+    FOREIGN KEY (Customer_SSN) REFERENCES Person(SSN),
     PRIMARY KEY (Customer_SSN)
 );
 
