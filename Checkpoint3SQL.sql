@@ -64,6 +64,31 @@ CREATE TABLE Robot (
     PRIMARY KEY (Robot_Serial_Number)
 );
 
+CREATE TABLE Review (
+    Review_Number VARCHAR(50) NOT NULL,
+    Comment TEXT,
+    Rating INT,
+    Customer_SSN VARCHAR(9),
+    Facility_Serial_Number VARCHAR (100),
+    FOREIGN KEY (Customer_SSN) REFERENCES Customer(Customer_SSN),
+    FOREIGN KEY (Facility_Serial_Number) REFERENCES Facility(Serial_Numbers),
+    PRIMARY KEY (Review_Number)
+);
+
+CREATE TABLE First_Delivery_Case (
+    Delivery_Date DATE NOT NULL,
+    Door_Clearances DECIMAL(10, 2),
+    WI_FI_Connection VARCHAR(64),
+    Electrical_Capacity DECIMAL(10, 2),
+    Privacy_Zones VARCHAR(100),
+    Environment_Map VARCHAR(100),
+    Robot_Serial_Number VARCHAR(50) NOT NULL,
+    Employee_SSN VARCHAR(9),
+    FOREIGN KEY (Robot_Serial_Number) REFERENCES Robot(Robot_Serial_Number),
+    FOREIGN KEY (Employee_SSN) REFERENCES Employee(Employee_SSN)
+    PRIMARY KEY (Delivery_Date, Robot_Serial_Number)
+);
+
 CREATE TABLE Facility_Assets (
     Serial_Number VARCHAR(50) NOT NULL,
     Facility_State VARCHAR(15),
@@ -72,4 +97,31 @@ CREATE TABLE Facility_Assets (
     FOREIGN KEY (Facility_State) REFERENCES Facility(State),
     FOREIGN KEY (Facility_City) REFERENCES Facility(City)
     FOREIGN KEY(Facility_Street_Address) REFERENCES Facility(Street_Address)
+    PRIMARY KEY (Serial_Number)
 );
+
+CREATE TABLE Facility (
+    State VARCHAR(15) NOT NULL,
+    City VARCHAR(30),
+    Street_Address VARCHAR(100) NOT NULL,
+    Phone VARCHAR(10),
+    Vehicle_Capacity int,
+    Robot_Capacity int,
+    Manager_SSN VARCHAR(9),
+    FOREIGN KEY (Manager_SSN) REFERENCES Employee(Employee_SSN);
+    PRIMARY KEY (State, Street_Address);
+)
+
+CREATE TABLE Maintenance_Request(
+    Request_Number int NOT NULL,
+    Type VARCHAR(20),
+    Description VARCHAR(200),
+    Handler_SSN VARCHAR(9),
+    Requester_SSN VARCHAR(9),
+    Asset_Serial_Number int,
+    FOREIGN KEY (Handler_SSN) REFERENCES Employee(Employee_SSN),
+    FOREIGN KEY (Requester_SSN) REFERENCES Customer(Customer_SSN),
+    PRIMARY KEY (Request_Number)
+);
+
+
