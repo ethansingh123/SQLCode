@@ -48,7 +48,8 @@ CREATE TABLE Driverless_Car (
     Warehouse_Location VARCHAR(100),
     Warranty_Expiration DATE,
     DC_Model_Number VARCHAR(50),
-    PRIMARY KEY (DC_Serial_Number)
+    PRIMARY KEY (DC_Serial_Number),
+    FOREIGN KEY (DC_Model_Number) REFERENCES Model(Model_Number)
 );
 
 CREATE TABLE Robot (
@@ -68,10 +69,10 @@ CREATE TABLE Review (
     Comment TEXT,
     Rating INT,
     Customer_SSN VARCHAR(9),
-    Facility_Serial_Number VARCHAR (100),
+    Facility_Serial_Number VARCHAR(50),
+    PRIMARY KEY (Review_Number),
     FOREIGN KEY (Customer_SSN) REFERENCES Customer(Customer_SSN),
-    FOREIGN KEY (Facility_Serial_Number) REFERENCES Facility(Serial_Numbers),
-    PRIMARY KEY (Review_Number)
+    FOREIGN KEY (Facility_Serial_Number) REFERENCES Facility_Assets(Serial_Number)
 );
 
 CREATE TABLE First_Delivery_Case (
@@ -93,9 +94,7 @@ CREATE TABLE Facility_Assets (
     Facility_State VARCHAR(15),
     Facility_City VARCHAR(30),
     Facility_Street_Address VARCHAR(150),
-    FOREIGN KEY (Facility_State) REFERENCES Facility(State),
-    FOREIGN KEY (Facility_City) REFERENCES Facility(City)
-    FOREIGN KEY(Facility_Street_Address) REFERENCES Facility(Street_Address),
+    FOREIGN KEY (Facility_State, Facility_Street_Address) REFERENCES Facility(State, Street_Address),
     PRIMARY KEY (Serial_Number)
 );
 
@@ -120,6 +119,7 @@ CREATE TABLE Maintenance_Request(
     Asset_Serial_Number VARCHAR(50),
     FOREIGN KEY (Handler_SSN) REFERENCES Employee(Employee_SSN),
     FOREIGN KEY (Requester_SSN) REFERENCES Person(SSN),
+    FOREIGN KEY (Asset_Serial_Number) REFERENCES Facility_Assets(Serial_Number),
     PRIMARY KEY (Request_Number)
 );
 
@@ -130,9 +130,7 @@ CREATE TABLE Customer (
     Facility_State VARCHAR(15),
     Facility_City VARCHAR(30),
     Facility_Street_Address VARCHAR(100),
-    FOREIGN KEY (Facility_State) REFERENCES Facility(Facility_State),
-    FOREIGN KEY (Facility_City) REFERENCES Facility(Facility_City),
-    FOREIGN KEY (Facility_Street_Address) REFERENCES Facility(Facility_Street_Address),
+    FOREIGN KEY (Facility_State, Facility_Street_Address) REFERENCES Facility(State, Street_Address),
     FOREIGN KEY (Customer_SSN) REFERENCES Person(SSN),
     PRIMARY KEY (Customer_SSN)
 );
@@ -177,9 +175,9 @@ CREATE TABLE Rental_Order (
     Due_Date DATE,
     Return_Date DATE,
     Status VARCHAR(200),
-    Fees VARCHAR(100),
+    Fees DECIMAL(10, 2),
     Customer_SSN VARCHAR(9),
-    Robot_Serial_Number int,
+    Robot_Serial_Number VARCHAR(50),
     FOREIGN KEY (Customer_SSN) REFERENCES Customer(Customer_SSN),
     FOREIGN KEY (Robot_Serial_Number) REFERENCES Robot(Robot_Serial_Number),
     PRIMARY KEY(Rental_Number)
