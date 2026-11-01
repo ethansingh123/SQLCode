@@ -159,6 +159,18 @@ CREATE TABLE Maintenance_Case (
     PRIMARY KEY (Service_Number)
 );
 
+CREATE TABLE Employee (
+    Employee_SSN VARCHAR(9) NOT NULL,
+    Role VARCHAR(50),
+    Salary DECIMAL(10, 2),
+    Facility_State VARCHAR(15),
+    Facility_City VARCHAR(30),
+    Facility_Street_Address VARCHAR(100),
+    PRIMARY KEY (Employee_SSN),
+    FOREIGN KEY (Employee_SSN) REFERENCES Person(SSN),
+    FOREIGN KEY (Facility_State, Facility_Street_Address) REFERENCES Facility(State, Street_Address)
+);
+
 CREATE TABLE Rental_Order (
     Rental_Number int NOT NULL,
     Check_Out_Date DATE,
