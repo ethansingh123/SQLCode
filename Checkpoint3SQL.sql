@@ -106,7 +106,6 @@ CREATE TABLE Facility (
     Vehicle_Capacity int,
     Robot_Capacity int,
     Manager_SSN VARCHAR(9),
-    FOREIGN KEY (Manager_SSN) REFERENCES Employee(Employee_SSN),
     PRIMARY KEY (State, City, Street_Address)
 );
 
