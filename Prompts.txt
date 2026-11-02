@@ -1,0 +1,64 @@
+3. Prompts used to create table data:
+(I used additional prompting to ask questions and make clarifications, but these are the prompts used to actually generate the data)
+I am working on a Robot Rental System database project. I will provide the SQL schema containing all CREATE TABLE statements.
+Before generating any data, analyze the entire schema.
+For every table, identify:
+Table name.
+All columns and their data types.
+Primary keys.
+Foreign keys and the tables/columns they reference.
+NOT NULL, UNIQUE, CHECK, and other constraints.
+Relationships between tables.
+Then create a table inventory that organizes the tables in dependency order, identifying which tables need to be populated before others.
+Do not generate any sample records yet. I first want to understand the database structure and plan the data generation process.
+Pay particular attention to foreign key dependencies and any constraints that could cause problems when importing CSV data.
+
+
+Using the database schema I provided, create a data generation plan for the Robot Rental System.
+Requirements:
+Aim for at least 40 records per table unless the table is a natural lookup/reference table.
+Identify all primary key and foreign key dependencies.
+Establish a consistent set of primary key values for every table.
+Ensure that all foreign key values will reference records that actually exist in their parent tables.
+Make the data realistic for a robot rental business.
+For each table, recommend:
+The number of records to generate.
+The primary key values or ID ranges.
+Which foreign keys it will reference.
+What realistic values should be used for its attributes.
+Do not generate the CSV files yet. First produce a coordinated data plan that we can use for all subsequent generation.
+
+
+(the following prompt is repeated for each table):
+Using the Robot Rental System database schema and the previously established data generation plan, generate the CSV data for the following table:
+TABLE: [TABLE NAME]
+Requirements:
+Generate exactly [NUMBER] records.
+Include every column required by the table schema.
+Use the exact column names and column order from the SQL schema.
+Generate unique primary key values.
+All foreign key values must reference existing records in the corresponding parent tables, using the IDs established in our data generation plan.
+Follow all NOT NULL, UNIQUE, CHECK, and other database constraints.
+Generate realistic and varied sample data appropriate for a Robot Rental System.
+Use consistent date formats (YYYY-MM-DD).
+Format decimal values appropriately.
+Properly escape commas and quotation marks in CSV fields.
+Output requirements:
+Return valid CSV only.
+Include exactly one header row.
+Do not use Markdown code fences.
+Do not include explanations or commentary.
+Do not omit any columns.
+Do not invent foreign key IDs that are not in the established data plan.
+Before returning the CSV, internally verify that all records meet the requirements above.
+
+
+
+
+
+4. AI Evaluation
+I noticed that the data being generated about robot use and functionality was not consistent with these robots being used for home-based services. Originally, the generated data suggested these robots were being used in a factory. This is what I prompted to regenerate the data that needed to be modified:
+
+Regenerate the following table data based on the previous prompt and data requirements, but take into consideration these uses of the robots: A Rental Home Robot Facility offers a service to communities, providing service robots for diverse home-based services and daily assistance (e.g., childcare, elderly care, health assistance, health assistance, health assistance, cleaning, cooking, security) at a very attractive cost. Any person in the community can become a customer of the facility and rent out any available robot service, being charged a fee. The customer provides a start date and a last date for the rental. The robots are delivered to and picked up from the customer's home by a fleet of driverless vehicles.
+
+
