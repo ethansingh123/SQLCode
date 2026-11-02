@@ -94,7 +94,7 @@ CREATE TABLE Facility_Assets (
     Facility_State VARCHAR(15),
     Facility_City VARCHAR(30),
     Facility_Street_Address VARCHAR(150),
-    FOREIGN KEY (Facility_State, Facility_Street_Address) REFERENCES Facility(State, Street_Address),
+    FOREIGN KEY (Facility_State, Facility_City, Facility_Street_Address) REFERENCES Facility(State, City, Street_Address),
     PRIMARY KEY (Serial_Number)
 );
 
@@ -107,7 +107,7 @@ CREATE TABLE Facility (
     Robot_Capacity int,
     Manager_SSN VARCHAR(9),
     FOREIGN KEY (Manager_SSN) REFERENCES Employee(Employee_SSN),
-    PRIMARY KEY (State, Street_Address)
+    PRIMARY KEY (State, City, Street_Address)
 );
 
 CREATE TABLE Maintenance_Request(
@@ -130,7 +130,7 @@ CREATE TABLE Customer (
     Facility_State VARCHAR(15),
     Facility_City VARCHAR(30),
     Facility_Street_Address VARCHAR(100),
-    FOREIGN KEY (Facility_State, Facility_Street_Address) REFERENCES Facility(State, Street_Address),
+    FOREIGN KEY (Facility_State, Facility_City, Facility_Street_Address) REFERENCES Facility(State, City, Street_Address),
     FOREIGN KEY (Customer_SSN) REFERENCES Person(SSN),
     PRIMARY KEY (Customer_SSN)
 );
@@ -166,7 +166,7 @@ CREATE TABLE Employee (
     Facility_Street_Address VARCHAR(100),
     PRIMARY KEY (Employee_SSN),
     FOREIGN KEY (Employee_SSN) REFERENCES Person(SSN),
-    FOREIGN KEY (Facility_State, Facility_Street_Address) REFERENCES Facility(State, Street_Address)
+    FOREIGN KEY (Facility_State, Facility_City, Facility_Street_Address) REFERENCES Facility(State, City, Street_Address)
 );
 
 CREATE TABLE Rental_Order (
