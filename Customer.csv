@@ -1,0 +1,61 @@
+Customer_SSN,Start_Date,Facility_Distance,Facility_State,Facility_City,Facility_Street_Address
+100000041,2025-01-15,4,OH,Columbus,1000 Robot Way
+100000042,2025-02-03,7,OH,Columbus,1000 Robot Way
+100000043,2025-02-18,12,OH,Columbus,1000 Robot Way
+100000044,2025-03-10,3,OH,Columbus,1000 Robot Way
+100000045,2025-03-22,9,OH,Columbus,1000 Robot Way
+100000046,2025-04-05,15,OH,Columbus,1000 Robot Way
+100000047,2025-04-19,6,OH,Columbus,1000 Robot Way
+100000048,2025-05-02,5,OH,Columbus,2000 Automation Ave
+100000049,2025-05-16,11,OH,Columbus,2000 Automation Ave
+100000050,2025-06-01,8,OH,Columbus,2000 Automation Ave
+100000051,2025-06-14,2,OH,Columbus,2000 Automation Ave
+100000052,2025-07-03,14,OH,Columbus,2000 Automation Ave
+100000053,2025-07-20,6,OH,Columbus,2000 Automation Ave
+100000054,2025-08-08,10,OH,Columbus,2000 Automation Ave
+100000055,2025-08-22,4,OH,Cleveland,1500 Innovation Dr
+100000056,2025-09-05,9,OH,Cleveland,1500 Innovation Dr
+100000057,2025-09-19,13,OH,Cleveland,1500 Innovation Dr
+100000058,2025-10-04,3,OH,Cleveland,1500 Innovation Dr
+100000059,2025-10-18,7,OH,Cleveland,1500 Innovation Dr
+100000060,2025-11-02,16,OH,Cleveland,1500 Innovation Dr
+100000061,2025-11-16,5,OH,Cleveland,1500 Innovation Dr
+100000062,2025-12-01,6,OH,Cincinnati,2500 Robotics Blvd
+100000063,2025-12-15,12,OH,Cincinnati,2500 Robotics Blvd
+100000064,2026-01-08,8,OH,Cincinnati,2500 Robotics Blvd
+100000065,2026-01-22,4,OH,Cincinnati,2500 Robotics Blvd
+100000066,2026-02-05,15,OH,Cincinnati,2500 Robotics Blvd
+100000067,2026-02-19,9,OH,Cincinnati,2500 Robotics Blvd
+100000068,2026-03-04,3,OH,Cincinnati,2500 Robotics Blvd
+100000069,2026-03-18,7,OH,Dayton,3000 Warehouse Pkwy
+100000070,2026-04-01,11,OH,Dayton,3000 Warehouse Pkwy
+100000071,2026-04-15,5,OH,Dayton,3000 Warehouse Pkwy
+100000072,2026-04-29,14,OH,Dayton,3000 Warehouse Pkwy
+100000073,2026-05-13,2,OH,Dayton,3000 Warehouse Pkwy
+100000074,2026-05-27,8,OH,Dayton,3000 Warehouse Pkwy
+100000075,2026-06-10,10,OH,Dayton,3000 Warehouse Pkwy
+100000076,2026-06-24,6,OH,Toledo,3500 Tech Park Rd
+100000077,2026-07-08,13,OH,Toledo,3500 Tech Park Rd
+100000078,2026-07-22,4,OH,Toledo,3500 Tech Park Rd
+100000079,2026-08-05,9,OH,Toledo,3500 Tech Park Rd
+100000080,2026-08-19,15,OH,Toledo,3500 Tech Park Rd
+100000081,2026-09-02,5,OH,Toledo,3500 Tech Park Rd
+100000082,2026-09-16,11,OH,Toledo,3500 Tech Park Rd
+100000083,2026-01-12,3,OH,Akron,4000 Industrial Ave
+100000084,2026-02-09,8,OH,Akron,4000 Industrial Ave
+100000085,2026-03-09,12,OH,Akron,4000 Industrial Ave
+100000086,2026-04-06,6,OH,Akron,4000 Industrial Ave
+100000087,2026-05-04,14,OH,Akron,4000 Industrial Ave
+100000088,2026-06-01,4,OH,Akron,4000 Industrial Ave
+100000089,2026-06-29,9,OH,Akron,4000 Industrial Ave
+100000090,2026-07-13,5,OH,Dublin,4500 Research Loop
+100000091,2026-07-27,10,OH,Dublin,4500 Research Loop
+100000092,2026-08-10,3,OH,Dublin,4500 Research Loop
+100000093,2026-08-24,7,OH,Dublin,4500 Research Loop
+100000094,2026-09-07,13,OH,Dublin,4500 Research Loop
+100000095,2026-09-21,6,OH,Dublin,4500 Research Loop
+100000096,2026-10-05,11,OH,Dublin,4500 Research Loop
+100000097,2026-10-12,4,OH,Dublin,4500 Research Loop
+100000098,2026-10-19,8,OH,Dublin,4500 Research Loop
+100000099,2026-10-22,2,OH,Columbus,1000 Robot Way
+100000100,2026-10-26,9,OH,Cleveland,1500 Innovation Dr

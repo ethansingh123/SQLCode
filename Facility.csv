@@ -1,0 +1,9 @@
+State,City,Street_Address,Phone,Vehicle_Capacity,Robot_Capacity,Manager_SSN
+OH,Columbus,1000 Robot Way,6145550101,25,50,NULL
+OH,Columbus,2000 Automation Ave,6145550102,20,40,NULL
+OH,Cleveland,1500 Innovation Dr,2165550103,18,35,NULL
+OH,Cincinnati,2500 Robotics Blvd,5135550104,22,45,NULL
+OH,Dayton,3000 Warehouse Pkwy,9375550105,15,30,NULL
+OH,Toledo,3500 Tech Park Rd,4195550106,16,32,NULL
+OH,Akron,4000 Industrial Ave,3305550107,14,28,NULL
+OH,Dublin,4500 Research Loop,6145550108,20,40,NULL

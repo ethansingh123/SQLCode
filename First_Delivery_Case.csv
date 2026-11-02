@@ -1,0 +1,41 @@
+Delivery_Date,Door_Clearances,WI_FI_Connection,Electrical_Capacity,Privacy_Zones,Environment_Map,Robot_Serial_Number,Employee_SSN
+2025-01-08,34.50,Strong,15.00,Living room; Bedroom,Single-story home with open living room and hallway,ROB-001,100000003
+2025-01-15,32.00,Moderate,12.00,Child bedroom; Home office,Two-story home with stairs and child safety zones,ROB-002,100000008
+2025-01-22,36.00,Strong,15.00,Bedroom; Bathroom,Single-story home with accessible bedroom and bathroom,ROB-003,100000013
+2025-02-03,35.00,Strong,20.00,Kitchen; Living room,Open-plan home with tiled kitchen and carpeted living area,ROB-004,100000018
+2025-02-11,33.50,Strong,20.00,Kitchen; Dining room,Residential kitchen with counter workspace and dining area,ROB-005,100000023
+2025-02-19,34.00,Moderate,15.00,Front entry; Bedroom,Single-family home with front entry and multiple ground-floor rooms,ROB-006,100000028
+2025-03-02,38.00,Strong,12.00,Bedroom; Bathroom,Accessible home with wide hallways and mobility support areas,ROB-007,100000033
+2025-03-10,32.50,Moderate,15.00,Child bedroom; Playroom,Family home with designated child-safe play area,ROB-008,100000038
+2025-03-18,35.00,Strong,12.00,Bedroom; Living room,Single-story home with wellness monitoring areas,ROB-009,100000003
+2025-03-27,34.00,Strong,18.00,Laundry room; Bedroom,Two-bedroom home with laundry and storage areas,ROB-010,100000008
+2025-04-05,36.50,Strong,15.00,Living room; Dining room,Open-plan apartment with accessible common areas,ROB-011,100000013
+2025-04-14,33.00,Strong,20.00,Kitchen; Dining room,Residential kitchen with standard appliances and dining space,ROB-012,100000018
+2025-04-22,35.50,Moderate,12.00,Medicine storage; Bedroom,Single-story home with designated medication storage area,ROB-013,100000023
+2025-05-01,34.00,Strong,15.00,Bedroom; Bathroom,Home with hard flooring and separate bathroom areas,ROB-014,100000028
+2025-05-09,37.00,Strong,12.00,Pet feeding area; Living room,Pet-friendly home with designated feeding and activity spaces,ROB-015,100000033
+2025-05-18,33.50,Strong,15.00,Front entry; Living room,Two-story home with monitored entrances and shared living space,ROB-016,100000038
+2025-05-26,38.50,Strong,15.00,Bedroom; Hallway,Accessible home with wide hallways and item retrieval areas,ROB-017,100000003
+2025-06-04,35.00,Strong,12.00,Bedroom; Bathroom,Home with private bedroom and bathroom monitoring zones,ROB-018,100000008
+2025-06-12,34.50,Moderate,20.00,Kitchen; Dining room,Apartment with compact kitchen and dining area,ROB-019,100000013
+2025-06-21,36.00,Strong,18.00,Living room; Hallway,Single-story home with mixed flooring and open common areas,ROB-020,100000018
+2025-07-02,35.00,Strong,12.00,Bedroom; Living room,Home with dedicated senior companionship areas,ROB-021,100000023
+2025-07-10,32.00,Moderate,15.00,Nursery; Playroom,Family home with nursery and child-safe play space,ROB-022,100000028
+2025-07-19,34.00,Strong,12.00,Bedroom; Bathroom,Home with accessible health monitoring locations,ROB-023,100000033
+2025-07-28,36.50,Strong,20.00,Kitchen; Dining room,Open kitchen with nearby dining and food preparation areas,ROB-024,100000038
+2025-08-05,35.50,Strong,15.00,Front entry; Living room,Single-family home with monitored doors and common areas,ROB-025,100000003
+2025-08-14,37.00,Strong,12.00,Bedroom; Bathroom,Accessible home with clear paths between bedroom and bathroom,ROB-026,100000008
+2025-08-23,34.00,Moderate,20.00,Kitchen; Living room,Home with mixed flooring and designated cleaning zones,ROB-027,100000013
+2025-09-01,38.00,Strong,12.00,Bedroom; Living room,Single-story home with senior activity and rest areas,ROB-028,100000018
+2025-09-09,33.00,Moderate,15.00,Child bedroom; Playroom,Family home with child-safe play and monitoring zones,ROB-029,100000023
+2025-09-18,35.00,Strong,20.00,Kitchen; Dining room,Residential kitchen with standard electrical outlets and dining area,ROB-030,100000028
+2025-09-27,36.00,Strong,15.00,Front entry; Garage,Home with monitored exterior entrances and garage access,ROB-031,100000033
+2025-10-06,37.50,Strong,12.00,Bedroom; Hallway,Accessible home with wide doorways and clear walking paths,ROB-032,100000038
+2025-10-15,34.50,Strong,12.00,Bedroom; Living room,Home with wellness check areas and shared living space,ROB-033,100000003
+2025-10-24,35.00,Strong,20.00,Kitchen; Dining room,Home with open kitchen and fresh food preparation area,ROB-034,100000008
+2025-11-02,36.00,Strong,18.00,Living room; Bedroom,Single-story home with hard floors and carpeted bedroom,ROB-035,100000013
+2025-11-11,34.00,Moderate,12.00,Bedroom; Bathroom,Home with senior assistance and accessible bathroom layout,ROB-036,100000018
+2025-11-20,33.50,Strong,15.00,Front entry; Child bedroom,Family home with monitored entry and child safety zones,ROB-037,100000023
+2025-11-29,35.50,Strong,12.00,Bedroom; Living room,Home with health monitoring and companion interaction areas,ROB-038,100000028
+2025-12-08,36.00,Strong,15.00,Laundry room; Living room,Residential home with laundry and household task areas,ROB-039,100000033
+2025-12-17,34.50,Strong,20.00,Kitchen; Living room,Single-story home with open kitchen and shared living space,ROB-040,100000038

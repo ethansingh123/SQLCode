@@ -1,0 +1,51 @@
+Request_Number,Type,Description,Handler_SSN,Requester_SSN,Asset_Serial_Number
+2001,Repair,Robot navigation sensor requires recalibration,100000002,100000041,AST-001
+2002,Inspection,Inspect companion robot after reported mobility issue,100000007,100000042,AST-002
+2003,Repair,Replace worn cleaning brushes and motor belt,100000012,100000043,AST-003
+2004,Maintenance,Perform routine battery health inspection,100000017,100000044,AST-004
+2005,Repair,Repair malfunctioning infrared sensor,100000022,100000045,AST-005
+2006,Inspection,Inspect security robot camera and motion detection system,100000027,100000046,AST-006
+2007,Repair,Replace damaged robotic arm attachment,100000032,100000047,AST-007
+2008,Maintenance,Update robot software and test connectivity,100000037,100000048,AST-008
+2009,Repair,Investigate unusual noise from mobility motor,100000003,100000049,AST-009
+2010,Inspection,Check medication reminder robot speaker and display,100000008,100000050,AST-010
+2011,Repair,Replace faulty ultrasonic proximity sensor,100000013,100000051,AST-011
+2012,Maintenance,Clean and inspect kitchen assistance robot components,100000018,100000052,AST-012
+2013,Repair,Repair damaged charging connector,100000023,100000053,AST-013
+2014,Inspection,Inspect child monitoring robot camera alignment,100000028,100000054,AST-014
+2015,Maintenance,Perform scheduled wheel and caster inspection,100000033,100000055,AST-015
+2016,Repair,Replace malfunctioning thermal sensor,100000038,100000056,AST-016
+2017,Repair,Resolve robot communication failure with home hub,100000004,100000057,AST-017
+2018,Inspection,Inspect mobility assistance controls and safety sensors,100000009,100000058,AST-018
+2019,Maintenance,Perform routine software update and diagnostics,100000014,100000059,AST-019
+2020,Repair,Repair vacuum motor and suction assembly,100000019,100000060,AST-020
+2021,Inspection,Check emergency alert system and speaker volume,100000024,100000061,AST-021
+2022,Repair,Replace worn wheel assembly on delivery robot,100000029,100000062,AST-022
+2023,Maintenance,Inspect battery charging performance and capacity,100000034,100000063,AST-023
+2024,Repair,Repair faulty depth camera used for room mapping,100000039,100000064,AST-024
+2025,Inspection,Inspect pet care robot feeding mechanism,100000005,100000065,AST-025
+2026,Repair,Replace damaged robotic gripper used for item retrieval,100000010,100000066,AST-026
+2027,Maintenance,Perform scheduled cleaning and sanitation,100000015,100000067,AST-027
+2028,Repair,Investigate intermittent loss of wireless connectivity,100000020,100000068,AST-028
+2029,Inspection,Inspect home security robot motion detection system,100000025,100000069,AST-029
+2030,Repair,Replace defective medication dispensing component,100000030,100000070,AST-030
+2031,Maintenance,Perform preventive maintenance on drive motors,100000035,100000071,AST-031
+2032,Repair,Repair malfunctioning navigation and obstacle avoidance,100000040,100000072,AST-032
+2033,Inspection,Inspect health monitoring sensors for accuracy,100000001,100000073,AST-033
+2034,Maintenance,Test cooking assistance robot safety interlocks,100000006,100000074,AST-034
+2035,Repair,Replace damaged cleaning brush assembly,100000011,100000075,AST-035
+2036,Inspection,Inspect elderly care robot emergency notification system,100000016,100000076,AST-036
+2037,Repair,Repair faulty microphone and voice recognition system,100000021,100000077,AST-037
+2038,Maintenance,Perform scheduled battery replacement and testing,100000026,100000078,AST-038
+2039,Repair,Resolve robot overheating during extended operation,100000031,100000079,AST-039
+2040,Inspection,Inspect household assistance robot sensors and controls,100000036,100000080,AST-040
+2041,Repair,Replace damaged charging station contacts,100000002,100000081,AST-001
+2042,Maintenance,Perform routine calibration of health monitoring sensors,100000007,100000082,AST-002
+2043,Inspection,Inspect cleaning robot water tank and pump,100000012,100000083,AST-003
+2044,Repair,Repair faulty obstacle detection sensor,100000017,100000084,AST-004
+2045,Maintenance,Perform scheduled inspection of security camera system,100000022,100000085,AST-005
+2046,Repair,Replace worn drive wheels and suspension components,100000027,100000086,AST-006
+2047,Inspection,Test child safety alerts and caregiver notification functions,100000032,100000087,AST-007
+2048,Maintenance,Perform software diagnostics and firmware update,100000037,100000088,AST-008
+2049,Repair,Repair malfunctioning robotic arm movement controls,100000003,100000089,AST-009
+2050,Inspection,Perform final safety inspection before returning robot to rental service,100000008,100000090,AST-010

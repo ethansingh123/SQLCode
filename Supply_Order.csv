@@ -1,0 +1,41 @@
+Order_Number,Type,Amount,Status,Manufacturer_Name,Facility_State,Facility_City,Facility_Street_Address
+1001,Robot Parts,2450.00,Delivered,Manufacturer_01,OH,Columbus,1000 Robot Way
+1002,Sensory Equipment,1875.50,Delivered,Manufacturer_02,OH,Columbus,2000 Automation Ave
+1003,Replacement Batteries,3200.00,Pending,Manufacturer_03,OH,Cleveland,1500 Innovation Dr
+1004,Maintenance Supplies,950.75,Delivered,Manufacturer_04,OH,Cincinnati,2500 Robotics Blvd
+1005,Robot Accessories,1425.00,Processing,Manufacturer_05,OH,Dayton,3000 Warehouse Pkwy
+1006,Robot Parts,2750.00,Delivered,Manufacturer_06,OH,Toledo,3500 Tech Park Rd
+1007,Sensory Equipment,2100.00,Delivered,Manufacturer_07,OH,Akron,4000 Industrial Ave
+1008,Replacement Batteries,3650.00,Pending,Manufacturer_08,OH,Dublin,4500 Research Loop
+1009,Maintenance Supplies,1125.25,Delivered,Manufacturer_01,OH,Columbus,1000 Robot Way
+1010,Robot Accessories,1675.00,Delivered,Manufacturer_02,OH,Columbus,2000 Automation Ave
+1011,Robot Parts,2950.00,Processing,Manufacturer_03,OH,Cleveland,1500 Innovation Dr
+1012,Sensory Equipment,2350.00,Delivered,Manufacturer_04,OH,Cincinnati,2500 Robotics Blvd
+1013,Replacement Batteries,3400.00,Delivered,Manufacturer_05,OH,Dayton,3000 Warehouse Pkwy
+1014,Maintenance Supplies,875.50,Pending,Manufacturer_06,OH,Toledo,3500 Tech Park Rd
+1015,Robot Accessories,1550.00,Delivered,Manufacturer_07,OH,Akron,4000 Industrial Ave
+1016,Robot Parts,3100.00,Delivered,Manufacturer_08,OH,Dublin,4500 Research Loop
+1017,Sensory Equipment,1925.00,Processing,Manufacturer_01,OH,Columbus,1000 Robot Way
+1018,Replacement Batteries,3850.00,Delivered,Manufacturer_02,OH,Columbus,2000 Automation Ave
+1019,Maintenance Supplies,1025.00,Delivered,Manufacturer_03,OH,Cleveland,1500 Innovation Dr
+1020,Robot Accessories,1800.75,Pending,Manufacturer_04,OH,Cincinnati,2500 Robotics Blvd
+1021,Robot Parts,2650.00,Delivered,Manufacturer_05,OH,Dayton,3000 Warehouse Pkwy
+1022,Sensory Equipment,2200.00,Delivered,Manufacturer_06,OH,Toledo,3500 Tech Park Rd
+1023,Replacement Batteries,3550.00,Processing,Manufacturer_07,OH,Akron,4000 Industrial Ave
+1024,Maintenance Supplies,975.00,Delivered,Manufacturer_08,OH,Dublin,4500 Research Loop
+1025,Robot Accessories,1625.50,Delivered,Manufacturer_01,OH,Columbus,1000 Robot Way
+1026,Robot Parts,2850.00,Pending,Manufacturer_02,OH,Columbus,2000 Automation Ave
+1027,Sensory Equipment,2050.00,Delivered,Manufacturer_03,OH,Cleveland,1500 Innovation Dr
+1028,Replacement Batteries,3900.00,Delivered,Manufacturer_04,OH,Cincinnati,2500 Robotics Blvd
+1029,Maintenance Supplies,1175.00,Processing,Manufacturer_05,OH,Dayton,3000 Warehouse Pkwy
+1030,Robot Accessories,1725.00,Delivered,Manufacturer_06,OH,Toledo,3500 Tech Park Rd
+1031,Robot Parts,3050.00,Delivered,Manufacturer_07,OH,Akron,4000 Industrial Ave
+1032,Sensory Equipment,2400.00,Pending,Manufacturer_08,OH,Dublin,4500 Research Loop
+1033,Replacement Batteries,3300.00,Delivered,Manufacturer_01,OH,Columbus,1000 Robot Way
+1034,Maintenance Supplies,925.00,Delivered,Manufacturer_02,OH,Columbus,2000 Automation Ave
+1035,Robot Accessories,1900.00,Processing,Manufacturer_03,OH,Cleveland,1500 Innovation Dr
+1036,Robot Parts,2750.50,Delivered,Manufacturer_04,OH,Cincinnati,2500 Robotics Blvd
+1037,Sensory Equipment,2150.00,Delivered,Manufacturer_05,OH,Dayton,3000 Warehouse Pkwy
+1038,Replacement Batteries,3750.00,Pending,Manufacturer_06,OH,Toledo,3500 Tech Park Rd
+1039,Maintenance Supplies,1075.00,Delivered,Manufacturer_07,OH,Akron,4000 Industrial Ave
+1040,Robot Accessories,1850.00,Delivered,Manufacturer_08,OH,Dublin,4500 Research Loop

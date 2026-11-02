@@ -1,0 +1,22 @@
+-- Populate the Robot Rental System database from the generated CSV files.
+-- Run this script from the directory containing the CSV files.
+-- The CSV files include header rows; --skip 1 skips each header.
+
+.mode csv
+
+.import --skip 1 Person.csv Person
+.import --skip 1 Manufacturer.csv Manufacturer
+.import --skip 1 Facility.csv Facility
+.import --skip 1 Model.csv Model
+.import --skip 1 Employee.csv Employee
+.import --skip 1 Customer.csv Customer
+.import --skip 1 Driverless_Car.csv Driverless_Car
+.import --skip 1 Facility_Assets.csv Facility_Assets
+.import --skip 1 Robot_Model_Sensory_Suite.csv Robot_Model_Sensory_Suite
+.import --skip 1 Robot.csv Robot
+.import --skip 1 Supply_Order.csv Supply_Order
+.import --skip 1 Maintenance_Request.csv Maintenance_Request
+.import --skip 1 Rental_Order.csv Rental_Order
+.import --skip 1 First_Delivery_Case.csv First_Delivery_Case
+.import --skip 1 Maintenance_Case.csv Maintenance_Case
+.import --skip 1 Review.csv Review

@@ -1,0 +1,41 @@
+Employee_SSN,Role,Salary,Facility_State,Facility_City,Facility_Street_Address
+100000001,Facility Manager,78000.00,OH,Columbus,1000 Robot Way
+100000002,Robot Technician,62000.00,OH,Columbus,1000 Robot Way
+100000003,Delivery Coordinator,54000.00,OH,Columbus,1000 Robot Way
+100000004,Customer Service Representative,46000.00,OH,Columbus,1000 Robot Way
+100000005,Maintenance Specialist,59000.00,OH,Columbus,1000 Robot Way
+100000006,Facility Manager,76000.00,OH,Columbus,2000 Automation Ave
+100000007,Robot Technician,61000.00,OH,Columbus,2000 Automation Ave
+100000008,Delivery Coordinator,53000.00,OH,Columbus,2000 Automation Ave
+100000009,Customer Service Representative,45000.00,OH,Columbus,2000 Automation Ave
+100000010,Maintenance Specialist,58000.00,OH,Columbus,2000 Automation Ave
+100000011,Facility Manager,79000.00,OH,Cleveland,1500 Innovation Dr
+100000012,Robot Technician,63000.00,OH,Cleveland,1500 Innovation Dr
+100000013,Delivery Coordinator,55000.00,OH,Cleveland,1500 Innovation Dr
+100000014,Customer Service Representative,47000.00,OH,Cleveland,1500 Innovation Dr
+100000015,Maintenance Specialist,60000.00,OH,Cleveland,1500 Innovation Dr
+100000016,Facility Manager,77000.00,OH,Cincinnati,2500 Robotics Blvd
+100000017,Robot Technician,62000.00,OH,Cincinnati,2500 Robotics Blvd
+100000018,Delivery Coordinator,54000.00,OH,Cincinnati,2500 Robotics Blvd
+100000019,Customer Service Representative,46000.00,OH,Cincinnati,2500 Robotics Blvd
+100000020,Maintenance Specialist,59000.00,OH,Cincinnati,2500 Robotics Blvd
+100000021,Facility Manager,75000.00,OH,Dayton,3000 Warehouse Pkwy
+100000022,Robot Technician,60000.00,OH,Dayton,3000 Warehouse Pkwy
+100000023,Delivery Coordinator,52000.00,OH,Dayton,3000 Warehouse Pkwy
+100000024,Customer Service Representative,44000.00,OH,Dayton,3000 Warehouse Pkwy
+100000025,Maintenance Specialist,57000.00,OH,Dayton,3000 Warehouse Pkwy
+100000026,Facility Manager,74000.00,OH,Toledo,3500 Tech Park Rd
+100000027,Robot Technician,61000.00,OH,Toledo,3500 Tech Park Rd
+100000028,Delivery Coordinator,53000.00,OH,Toledo,3500 Tech Park Rd
+100000029,Customer Service Representative,45000.00,OH,Toledo,3500 Tech Park Rd
+100000030,Maintenance Specialist,58000.00,OH,Toledo,3500 Tech Park Rd
+100000031,Facility Manager,76000.00,OH,Akron,4000 Industrial Ave
+100000032,Robot Technician,62000.00,OH,Akron,4000 Industrial Ave
+100000033,Delivery Coordinator,54000.00,OH,Akron,4000 Industrial Ave
+100000034,Customer Service Representative,46000.00,OH,Akron,4000 Industrial Ave
+100000035,Maintenance Specialist,59000.00,OH,Akron,4000 Industrial Ave
+100000036,Facility Manager,78000.00,OH,Dublin,4500 Research Loop
+100000037,Robot Technician,63000.00,OH,Dublin,4500 Research Loop
+100000038,Delivery Coordinator,55000.00,OH,Dublin,4500 Research Loop
+100000039,Customer Service Representative,47000.00,OH,Dublin,4500 Research Loop
+100000040,Maintenance Specialist,60000.00,OH,Dublin,4500 Research Loop
