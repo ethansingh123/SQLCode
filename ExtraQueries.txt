@@ -1,0 +1,14 @@
+/* The number of robot models that have a camera sensor and are associated with a facility located in the city Columbus. */
+SELECT COUNT(DISTINCT Model_Number) 
+FROM Robot_Model_Sensory_Suite NATURAL JOIN ROBOT JOIN Model ON Robot_Model_Number = Model_Number JOIN Facility_Assets ON Serial_Number=Robot_Serial_Number JOIN FACILITY ON State = Facility_State AND City=Facility_City AND Street_Address=Facility_Street_Address 
+WHERE City = 'Columbus' AND Sensory_Suite = 'Camera'; 
+
+/* The serial numbers of all robots deleivered by the driverless car that has the serial number DC-009. */
+SELECT R.Robot_Serial_Number 
+FROM Robot AS R JOIN Driverless_Car AS D ON R.DC_Serial_Number = D.DC_Serial_Number 
+WHERE D.DC_Serial_Number= 'DC-009';
+
+/* The model name and model number of all the models made by manufacturers located in the city Cleveland. */
+SELECT Name, Model_Number 
+FROM Model NATURAL JOIN Manufacturer 
+WHERE City= 'Cleveland'; 
