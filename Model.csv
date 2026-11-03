@@ -1,41 +1,41 @@
 Model_Number,Year,Name,Manufacturer_Name,Battery_Autonomy,Primary_Function,Payload_Capacity,Distance_Autonomy,Max_Speed
-MOD-001,2023,HomeCare Companion,Manufacturer_01,12,Elderly companionship and daily activity assistance,null,null,null
-MOD-002,2024,LittleGuardian,Manufacturer_01,10,Childcare supervision and child safety monitoring,null,null,null
-MOD-003,2022,HealthMate,Manufacturer_01,8,Medication reminders and basic health monitoring,null,null,null
-MOD-004,2025,HomeClean Pro,Manufacturer_01,null,null,20,38,3.5
-MOD-005,2024,KitchenAssist,Manufacturer_01,7.5,Meal preparation and cooking assistance,null,null,null
-MOD-006,2023,SafeHaven,Manufacturer_02,null,null,10,42,3
-MOD-007,2025,SeniorSupport,Manufacturer_02,12,Assistance with mobility and daily living tasks,null,null,null
-MOD-008,2022,ChildWatch,Manufacturer_02,9,Child safety monitoring and interactive supervision,null,null,null
-MOD-009,2024,WellnessCheck,Manufacturer_02,10,Health readings and wellness check reminders,null,null,null
-MOD-010,2023,HouseholdHelper,Manufacturer_02,8.5,Laundry folding and household organization,null,null,null
-MOD-011,2024,CompanionPlus,Manufacturer_03,13,Social interaction and companionship for older adults,null,null,null
-MOD-012,2023,MealMaster,Manufacturer_03,9,Meal preparation and kitchen assistance,null,null,null
-MOD-013,2025,MedReminder,Manufacturer_03,11,Medication scheduling and reminder assistance,null,null,null
-MOD-014,2022,HomeSanitize,Manufacturer_03,null,null,12,26,2
-MOD-015,2024,PetCare Assistant,Manufacturer_03,8,Pet feeding and routine household pet care,null,null,null
-MOD-016,2023,FamilyGuardian,Manufacturer_04,null,null,10,45,3.5
-MOD-017,2025,MobilityMate,Manufacturer_04,10,Indoor mobility support and item retrieval,null,null,null
-MOD-018,2022,HealthMonitor Home,Manufacturer_04,9,Health monitoring and wellness notifications,null,null,null
-MOD-019,2024,SmartCook,Manufacturer_04,8.5,Cooking support and kitchen task assistance,null,null,null
-MOD-020,2023,NeatHome,Manufacturer_04,null,null,18,40,3
-MOD-021,2024,ElderCare Connect,Manufacturer_05,12,Elderly care reminders and daily routine assistance,null,null,null
-MOD-022,2023,BabySafe Monitor,Manufacturer_05,10,Nursery monitoring and child safety alerts,null,null,null
-MOD-023,2025,HomeHealth Plus,Manufacturer_05,9,Non-diagnostic health monitoring and appointment reminders,null,null,null
-MOD-024,2022,KitchenCompanion,Manufacturer_05,8,Food preparation and cooking assistance,null,null,null
-MOD-025,2024,SecureHome Rover,Manufacturer_05,null,null,10,43,3
-MOD-026,2023,DailyLiving Assistant,Manufacturer_06,13,Assistance with daily household activities,null,null,null
-MOD-027,2025,CleanSweep Home,Manufacturer_06,null,null,18,35,3
-MOD-028,2022,SeniorWell Companion,Manufacturer_06,12,Companionship and scheduled wellness check-ins,null,null,null
-MOD-029,2024,ChildCare Buddy,Manufacturer_06,10,Child activity support and caregiver notifications,null,null,null
-MOD-030,2023,HomeChef Assistant,Manufacturer_06,8.5,Meal planning and cooking assistance,null,null,null
-MOD-031,2024,Guardian 360,Manufacturer_07,null,null,9,48,3
-MOD-032,2023,AccessibleHome Helper,Manufacturer_07,11,Mobility assistance and household item retrieval,null,null,null
-MOD-033,2025,Wellness Companion,Manufacturer_07,9.5,Daily health reminders and basic wellness tracking,null,null,null
-MOD-034,2022,FreshKitchen Robot,Manufacturer_07,8,Kitchen assistance and meal preparation,null,null,null
-MOD-035,2024,HomeCare Cleaner,Manufacturer_07,null,null,20,37,3
-MOD-036,2023,SeniorAssist Pro,Manufacturer_08,13,Elderly daily living support and emergency alerts,null,null,null
-MOD-037,2025,FamilyWatch,Manufacturer_08,10,Child and household safety monitoring,null,null,null
-MOD-038,2022,HealthAssist Rover,Manufacturer_08,null,null,8,32,2
-MOD-039,2024,HomeTask Companion,Manufacturer_08,8.5,Household organization and routine assistance,null,null,null
-MOD-040,2023,AllPurpose Home Assistant,Manufacturer_08,11,Multi-purpose home assistance for everyday tasks,null,null,null
+MOD-001,2023,HomeCare Companion,Manufacturer_01,12,Elderly companionship and daily activity assistance,NULL,NULL,NULL
+MOD-002,2024,LittleGuardian,Manufacturer_01,10,Childcare supervision and child safety monitoring,NULL,NULL,NULL
+MOD-003,2022,HealthMate,Manufacturer_01,8,Medication reminders and basic health monitoring,NULL,NULL,NULL
+MOD-004,2025,HomeClean Pro,Manufacturer_01,NULL,NULL,20,38,3.5
+MOD-005,2024,KitchenAssist,Manufacturer_01,7.5,Meal preparation and cooking assistance,NULL,NULL,NULL
+MOD-006,2023,SafeHaven,Manufacturer_02,NULL,NULL,10,42,3
+MOD-007,2025,SeniorSupport,Manufacturer_02,12,Assistance with mobility and daily living tasks,NULL,NULL,NULL
+MOD-008,2022,ChildWatch,Manufacturer_02,9,Child safety monitoring and interactive supervision,NULL,NULL,NULL
+MOD-009,2024,WellnessCheck,Manufacturer_02,10,Health readings and wellness check reminders,NULL,NULL,NULL
+MOD-010,2023,HouseholdHelper,Manufacturer_02,8.5,Laundry folding and household organization,NULL,NULL,NULL
+MOD-011,2024,CompanionPlus,Manufacturer_03,13,Social interaction and companionship for older adults,NULL,NULL,NULL
+MOD-012,2023,MealMaster,Manufacturer_03,9,Meal preparation and kitchen assistance,NULL,NULL,NULL
+MOD-013,2025,MedReminder,Manufacturer_03,11,Medication scheduling and reminder assistance,NULL,NULL,NULL
+MOD-014,2022,HomeSanitize,Manufacturer_03,NULL,NULL,12,26,2
+MOD-015,2024,PetCare Assistant,Manufacturer_03,8,Pet feeding and routine household pet care,NULL,NULL,NULL
+MOD-016,2023,FamilyGuardian,Manufacturer_04,NULL,NULL,10,45,3.5
+MOD-017,2025,MobilityMate,Manufacturer_04,10,Indoor mobility support and item retrieval,NULL,NULL,NULL
+MOD-018,2022,HealthMonitor Home,Manufacturer_04,9,Health monitoring and wellness notifications,NULL,NULL,NULL
+MOD-019,2024,SmartCook,Manufacturer_04,8.5,Cooking support and kitchen task assistance,NULL,NULL,NULL
+MOD-020,2023,NeatHome,Manufacturer_04,NULL,NULL,18,40,3
+MOD-021,2024,ElderCare Connect,Manufacturer_05,12,Elderly care reminders and daily routine assistance,NULL,NULL,NULL
+MOD-022,2023,BabySafe Monitor,Manufacturer_05,10,Nursery monitoring and child safety alerts,NULL,NULL,NULL
+MOD-023,2025,HomeHealth Plus,Manufacturer_05,9,Non-diagnostic health monitoring and appointment reminders,NULL,NULL,NULL
+MOD-024,2022,KitchenCompanion,Manufacturer_05,8,Food preparation and cooking assistance,NULL,NULL,NULL
+MOD-025,2024,SecureHome Rover,Manufacturer_05,NULL,NULL,10,43,3
+MOD-026,2023,DailyLiving Assistant,Manufacturer_06,13,Assistance with daily household activities,NULL,NULL,NULL
+MOD-027,2025,CleanSweep Home,Manufacturer_06,NULL,NULL,18,35,3
+MOD-028,2022,SeniorWell Companion,Manufacturer_06,12,Companionship and scheduled wellness check-ins,NULL,NULL,NULL
+MOD-029,2024,ChildCare Buddy,Manufacturer_06,10,Child activity support and caregiver notifications,NULL,NULL,NULL
+MOD-030,2023,HomeChef Assistant,Manufacturer_06,8.5,Meal planning and cooking assistance,NULL,NULL,NULL
+MOD-031,2024,Guardian 360,Manufacturer_07,NULL,NULL,9,48,3
+MOD-032,2023,AccessibleHome Helper,Manufacturer_07,11,Mobility assistance and household item retrieval,NULL,NULL,NULL
+MOD-033,2025,Wellness Companion,Manufacturer_07,9.5,Daily health reminders and basic wellness tracking,NULL,NULL,NULL
+MOD-034,2022,FreshKitchen Robot,Manufacturer_07,8,Kitchen assistance and meal preparation,NULL,NULL,NULL
+MOD-035,2024,HomeCare Cleaner,Manufacturer_07,NULL,NULL,20,37,3
+MOD-036,2023,SeniorAssist Pro,Manufacturer_08,13,Senior daily living support and emergency alerts,NULL,NULL,NULL
+MOD-037,2025,FamilyWatch,Manufacturer_08,10,Child and household safety monitoring,NULL,NULL,NULL
+MOD-038,2022,HealthAssist Rover,Manufacturer_08,NULL,NULL,8,32,2
+MOD-039,2024,HomeTask Companion,Manufacturer_08,8.5,Household organization and routine assistance,NULL,NULL,NULL
+MOD-040,
