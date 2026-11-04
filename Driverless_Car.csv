@@ -1,41 +1,41 @@
-DC_Serial_Number,License_Plate,Status,Warehouse_Location,Warranty_Expiration,DC_Model_Number
-DC-001,OH-RNT-1001,Available,Columbus Central Facility,2028-03-15,MOD-001
-DC-002,OH-RNT-1002,Available,Columbus Central Facility,2028-04-20,MOD-002
-DC-003,OH-RNT-1003,Available,Columbus Central Facility,2027-11-30,MOD-003
-DC-004,OH-RNT-1004,Available,Columbus Central Facility,2028-06-10,MOD-004
-DC-005,OH-RNT-1005,Available,Columbus Central Facility,2027-09-22,MOD-005
-DC-006,OH-RNT-1006,Available,Cleveland Distribution Center,2028-01-18,MOD-006
-DC-007,OH-RNT-1007,Available,Cleveland Distribution Center,2027-12-05,MOD-007
-DC-008,OH-RNT-1008,Available,Cleveland Distribution Center,2028-05-14,MOD-008
-DC-009,OH-RNT-1009,Available,Cleveland Distribution Center,2028-02-28,MOD-009
-DC-010,OH-RNT-1010,Available,Cleveland Distribution Center,2027-10-16,MOD-010
-DC-011,OH-RNT-1011,Available,Detroit Partner Facility,2028-07-21,MOD-011
-DC-012,OH-RNT-1012,Available,Detroit Partner Facility,2027-08-31,MOD-012
-DC-013,OH-RNT-1013,Available,Detroit Partner Facility,2028-03-09,MOD-013
-DC-014,OH-RNT-1014,Available,Detroit Partner Facility,2028-06-25,MOD-014
-DC-015,OH-RNT-1015,Available,Detroit Partner Facility,2027-11-12,MOD-015
-DC-016,OH-RNT-1016,Available,Pittsburgh Partner Facility,2028-04-02,MOD-016
-DC-017,OH-RNT-1017,Available,Pittsburgh Partner Facility,2027-09-19,MOD-017
-DC-018,OH-RNT-1018,Available,Pittsburgh Partner Facility,2028-01-30,MOD-018
-DC-019,OH-RNT-1019,Available,Pittsburgh Partner Facility,2028-05-08,MOD-019
-DC-020,OH-RNT-1020,Available,Pittsburgh Partner Facility,2027-12-17,MOD-020
-DC-021,OH-RNT-1021,Available,Chicago Partner Facility,2028-02-11,MOD-021
-DC-022,OH-RNT-1022,Available,Chicago Partner Facility,2027-10-29,MOD-022
-DC-023,OH-RNT-1023,Available,Chicago Partner Facility,2028-06-03,MOD-023
-DC-024,OH-RNT-1024,Available,Chicago Partner Facility,2028-03-27,MOD-024
-DC-025,OH-RNT-1025,Available,Chicago Partner Facility,2027-08-14,MOD-025
-DC-026,OH-RNT-1026,Available,Indianapolis Partner Facility,2028-05-19,MOD-026
-DC-027,OH-RNT-1027,Available,Indianapolis Partner Facility,2027-11-25,MOD-027
-DC-028,OH-RNT-1028,Available,Indianapolis Partner Facility,2028-01-07,MOD-028
-DC-029,OH-RNT-1029,Available,Indianapolis Partner Facility,2028-04-16,MOD-029
-DC-030,OH-RNT-1030,Available,Indianapolis Partner Facility,2027-09-03,MOD-030
-DC-031,OH-RNT-1031,Available,Dayton Regional Facility,2028-07-12,MOD-031
-DC-032,OH-RNT-1032,Available,Dayton Regional Facility,2027-12-21,MOD-032
-DC-033,OH-RNT-1033,Available,Dayton Regional Facility,2028-02-06,MOD-033
-DC-034,OH-RNT-1034,Available,Dayton Regional Facility,2028-05-27,MOD-034
-DC-035,OH-RNT-1035,Available,Dayton Regional Facility,2027-10-08,MOD-035
-DC-036,OH-RNT-1036,Available,Buffalo Partner Facility,2028-03-18,MOD-036
-DC-037,OH-RNT-1037,Available,Buffalo Partner Facility,2027-08-25,MOD-037
-DC-038,OH-RNT-1038,Available,Buffalo Partner Facility,2028-06-14,MOD-038
-DC-039,OH-RNT-1039,Available,Buffalo Partner Facility,2028-01-24,MOD-039
-DC-040,OH-RNT-1040,Available,Buffalo Partner Facility,2027-11-06,MOD-040
+DC_Serial_Number,License_Plate,Status,Warranty_Expiration,DC_Model_Number
+DC-001,OH-RNT-1001,Available,2028-03-15,MOD-041
+DC-002,OH-RNT-1002,Available,2028-04-20,MOD-041
+DC-003,OH-RNT-1003,Available,2027-11-30,MOD-042
+DC-004,OH-RNT-1004,Available,2028-06-10,MOD-042
+DC-005,OH-RNT-1005,Available,2027-09-22,MOD-043
+DC-006,OH-RNT-1006,Available,2028-01-18,MOD-043
+DC-007,OH-RNT-1007,Available,2027-12-05,MOD-044
+DC-008,OH-RNT-1008,Available,2028-05-14,MOD-044
+DC-009,OH-RNT-1009,Available,2028-02-28,MOD-045
+DC-010,OH-RNT-1010,Available,2027-10-16,MOD-045
+DC-011,OH-RNT-1011,Available,2028-07-21,MOD-046
+DC-012,OH-RNT-1012,Available,2027-08-31,MOD-046
+DC-013,OH-RNT-1013,Available,2028-03-09,MOD-047
+DC-014,OH-RNT-1014,Available,2028-06-25,MOD-047
+DC-015,OH-RNT-1015,Available,2027-11-12,MOD-048
+DC-016,OH-RNT-1016,Available,2028-04-02,MOD-048
+DC-017,OH-RNT-1017,Available,2027-09-19,MOD-049
+DC-018,OH-RNT-1018,Available,2028-01-30,MOD-049
+DC-019,OH-RNT-1019,Available,2028-05-08,MOD-050
+DC-020,OH-RNT-1020,Available,2027-12-17,MOD-050
+DC-021,OH-RNT-1021,Available,2028-02-11,MOD-041
+DC-022,OH-RNT-1022,Available,2027-10-29,MOD-042
+DC-023,OH-RNT-1023,Available,2028-06-03,MOD-043
+DC-024,OH-RNT-1024,Available,2028-03-27,MOD-044
+DC-025,OH-RNT-1025,Available,2027-08-14,MOD-045
+DC-026,OH-RNT-1026,Available,2028-05-19,MOD-046
+DC-027,OH-RNT-1027,Available,2027-11-25,MOD-047
+DC-028,OH-RNT-1028,Available,2028-01-07,MOD-048
+DC-029,OH-RNT-1029,Available,2028-04-16,MOD-049
+DC-030,OH-RNT-1030,Available,2027-09-03,MOD-050
+DC-031,OH-RNT-1031,Available,2028-07-12,MOD-041
+DC-032,OH-RNT-1032,Available,2027-12-21,MOD-042
+DC-033,OH-RNT-1033,Available,2028-02-06,MOD-043
+DC-034,OH-RNT-1034,Available,2028-05-27,MOD-044
+DC-035,OH-RNT-1035,Available,2027-10-08,MOD-045
+DC-036,OH-RNT-1036,Available,2028-03-18,MOD-046
+DC-037,OH-RNT-1037,Available,2027-08-25,MOD-047
+DC-038,OH-RNT-1038,Available,2028-06-14,MOD-048
+DC-039,OH-RNT-1039,Available,2028-01-24,MOD-049
+DC-040,OH-RNT-1040,Available,2027-11-06,MOD-050
