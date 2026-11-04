@@ -1,0 +1,23 @@
+/* A view that joins Facility_Asset, Maintenance_Request, and Maintenance_Case to display the number of times each asset has been serviced. */
+CREATE VIEW Asset_Maintenance_Summary AS 
+SELECT F.*, COUNT(MC.Service_Number) AS Total_Maintenance_Cases 
+FROM Facility_Assets AS F 
+LEFT JOIN Maintenance_Request AS MR 
+	ON F.Serial_Number = MR.Asset_Serial_Number  
+LEFT JOIN Maintenance_Case AS MC 
+	ON MR.Request_Number = MC.Maintenance_Request_Number 
+GROUP BY F.Serial_Number 
+ORDER BY Total_Maintenance_Cases DESC; 
+
+/* A view that joins Facility and Employee to display the number of employees working at each facility, and their total wages. */
+CREATE VIEW Facility_Employment_Summary AS 
+SELECT F.*, COUNT(E.Employee_SSN) AS Total_Employees, SUM(E.Salary) AS Total_Wages 
+FROM Facility AS F 
+LEFT JOIN Employee AS E 
+	ON F.State = E.Facility_State 
+	AND F.City = E.Facility_City 
+	AND F.Street_Address = E.Facility_Street_Address 
+GROUP BY F.State, F.City, F.Street_Address 
+ORDER BY Total_Wages DESC, Total_Employees DESC; 
+
+
