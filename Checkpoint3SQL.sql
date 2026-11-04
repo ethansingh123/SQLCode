@@ -45,7 +45,6 @@ CREATE TABLE Driverless_Car (
     DC_Serial_Number VARCHAR(50) NOT NULL,
     License_Plate VARCHAR(20),
     Status VARCHAR(50),
-    Warehouse_Location VARCHAR(100),
     Warranty_Expiration DATE,
     DC_Model_Number VARCHAR(50),
     PRIMARY KEY (DC_Serial_Number),
@@ -55,7 +54,6 @@ CREATE TABLE Driverless_Car (
 CREATE TABLE Robot (
     Robot_Serial_Number VARCHAR(50) NOT NULL,
     Status VARCHAR(50),
-    Warehouse_Location VARCHAR(100),
     Warranty_Expiration DATE,
     Robot_Model_Number VARCHAR(50),
     DC_Serial_Number VARCHAR(50),
