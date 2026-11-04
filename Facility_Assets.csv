@@ -1,41 +1,101 @@
 Serial_Number,Facility_State,Facility_City,Facility_Street_Address
-AST-001,OH,Columbus,1000 Robot Way
-AST-002,OH,Columbus,1000 Robot Way
-AST-003,OH,Columbus,1000 Robot Way
-AST-004,OH,Columbus,1000 Robot Way
-AST-005,OH,Columbus,1000 Robot Way
-AST-006,OH,Columbus,2000 Automation Ave
-AST-007,OH,Columbus,2000 Automation Ave
-AST-008,OH,Columbus,2000 Automation Ave
-AST-009,OH,Columbus,2000 Automation Ave
-AST-010,OH,Columbus,2000 Automation Ave
-AST-011,OH,Cleveland,1500 Innovation Dr
-AST-012,OH,Cleveland,1500 Innovation Dr
-AST-013,OH,Cleveland,1500 Innovation Dr
-AST-014,OH,Cleveland,1500 Innovation Dr
-AST-015,OH,Cleveland,1500 Innovation Dr
-AST-016,OH,Cincinnati,2500 Robotics Blvd
-AST-017,OH,Cincinnati,2500 Robotics Blvd
-AST-018,OH,Cincinnati,2500 Robotics Blvd
-AST-019,OH,Cincinnati,2500 Robotics Blvd
-AST-020,OH,Cincinnati,2500 Robotics Blvd
-AST-021,OH,Dayton,3000 Warehouse Pkwy
-AST-022,OH,Dayton,3000 Warehouse Pkwy
-AST-023,OH,Dayton,3000 Warehouse Pkwy
-AST-024,OH,Dayton,3000 Warehouse Pkwy
-AST-025,OH,Dayton,3000 Warehouse Pkwy
-AST-026,OH,Toledo,3500 Tech Park Rd
-AST-027,OH,Toledo,3500 Tech Park Rd
-AST-028,OH,Toledo,3500 Tech Park Rd
-AST-029,OH,Toledo,3500 Tech Park Rd
-AST-030,OH,Toledo,3500 Tech Park Rd
-AST-031,OH,Akron,4000 Industrial Ave
-AST-032,OH,Akron,4000 Industrial Ave
-AST-033,OH,Akron,4000 Industrial Ave
-AST-034,OH,Akron,4000 Industrial Ave
-AST-035,OH,Akron,4000 Industrial Ave
-AST-036,OH,Dublin,4500 Research Loop
-AST-037,OH,Dublin,4500 Research Loop
-AST-038,OH,Dublin,4500 Research Loop
-AST-039,OH,Dublin,4500 Research Loop
-AST-040,OH,Dublin,4500 Research Loop
+ROB-001,OH,Columbus,1000 Robot Way
+ROB-002,OH,Columbus,1000 Robot Way
+ROB-003,OH,Columbus,1000 Robot Way
+ROB-004,OH,Columbus,1000 Robot Way
+ROB-005,OH,Columbus,1000 Robot Way
+ROB-006,OH,Columbus,2000 Automation Ave
+ROB-007,OH,Columbus,2000 Automation Ave
+ROB-008,OH,Columbus,2000 Automation Ave
+ROB-009,OH,Columbus,2000 Automation Ave
+ROB-010,OH,Columbus,2000 Automation Ave
+ROB-011,OH,Cleveland,1500 Innovation Dr
+ROB-012,OH,Cleveland,1500 Innovation Dr
+ROB-013,OH,Cleveland,1500 Innovation Dr
+ROB-014,OH,Cleveland,1500 Innovation Dr
+ROB-015,OH,Cleveland,1500 Innovation Dr
+ROB-016,OH,Cincinnati,2500 Robotics Blvd
+ROB-017,OH,Cincinnati,2500 Robotics Blvd
+ROB-018,OH,Cincinnati,2500 Robotics Blvd
+ROB-019,OH,Cincinnati,2500 Robotics Blvd
+ROB-020,OH,Cincinnati,2500 Robotics Blvd
+ROB-021,OH,Dayton,3000 Warehouse Pkwy
+ROB-022,OH,Dayton,3000 Warehouse Pkwy
+ROB-023,OH,Dayton,3000 Warehouse Pkwy
+ROB-024,OH,Dayton,3000 Warehouse Pkwy
+ROB-025,OH,Dayton,3000 Warehouse Pkwy
+ROB-026,OH,Toledo,3500 Tech Park Rd
+ROB-027,OH,Toledo,3500 Tech Park Rd
+ROB-028,OH,Toledo,3500 Tech Park Rd
+ROB-029,OH,Toledo,3500 Tech Park Rd
+ROB-030,OH,Toledo,3500 Tech Park Rd
+ROB-031,OH,Akron,4000 Industrial Ave
+ROB-032,OH,Akron,4000 Industrial Ave
+ROB-033,OH,Akron,4000 Industrial Ave
+ROB-034,OH,Akron,4000 Industrial Ave
+ROB-035,OH,Akron,4000 Industrial Ave
+ROB-036,OH,Dublin,4500 Research Loop
+ROB-037,OH,Dublin,4500 Research Loop
+ROB-038,OH,Dublin,4500 Research Loop
+ROB-039,OH,Dublin,4500 Research Loop
+ROB-040,OH,Dublin,4500 Research Loop
+ROB-041,OH,Columbus,1000 Robot Way
+ROB-042,OH,Columbus,1000 Robot Way
+ROB-043,OH,Columbus,1000 Robot Way
+ROB-044,OH,Columbus,2000 Automation Ave
+ROB-045,OH,Columbus,2000 Automation Ave
+ROB-046,OH,Columbus,2000 Automation Ave
+ROB-047,OH,Cleveland,1500 Innovation Dr
+ROB-048,OH,Cleveland,1500 Innovation Dr
+ROB-049,OH,Cleveland,1500 Innovation Dr
+ROB-050,OH,Cincinnati,2500 Robotics Blvd
+ROB-051,OH,Cincinnati,2500 Robotics Blvd
+ROB-052,OH,Cincinnati,2500 Robotics Blvd
+ROB-053,OH,Dayton,3000 Warehouse Pkwy
+ROB-054,OH,Dayton,3000 Warehouse Pkwy
+ROB-055,OH,Toledo,3500 Tech Park Rd
+ROB-056,OH,Toledo,3500 Tech Park Rd
+ROB-057,OH,Akron,4000 Industrial Ave
+ROB-058,OH,Akron,4000 Industrial Ave
+ROB-059,OH,Dublin,4500 Research Loop
+ROB-060,OH,Dublin,4500 Research Loop
+DC-001,OH,Columbus,1000 Robot Way
+DC-002,OH,Columbus,1000 Robot Way
+DC-003,OH,Columbus,1000 Robot Way
+DC-004,OH,Columbus,2000 Automation Ave
+DC-005,OH,Columbus,2000 Automation Ave
+DC-006,OH,Columbus,2000 Automation Ave
+DC-007,OH,Cleveland,1500 Innovation Dr
+DC-008,OH,Cleveland,1500 Innovation Dr
+DC-009,OH,Cleveland,1500 Innovation Dr
+DC-010,OH,Cincinnati,2500 Robotics Blvd
+DC-011,OH,Cincinnati,2500 Robotics Blvd
+DC-012,OH,Cincinnati,2500 Robotics Blvd
+DC-013,OH,Dayton,3000 Warehouse Pkwy
+DC-014,OH,Dayton,3000 Warehouse Pkwy
+DC-015,OH,Toledo,3500 Tech Park Rd
+DC-016,OH,Toledo,3500 Tech Park Rd
+DC-017,OH,Akron,4000 Industrial Ave
+DC-018,OH,Akron,4000 Industrial Ave
+DC-019,OH,Dublin,4500 Research Loop
+DC-020,OH,Dublin,4500 Research Loop
+DC-021,OH,Columbus,1000 Robot Way
+DC-022,OH,Columbus,1000 Robot Way
+DC-023,OH,Columbus,2000 Automation Ave
+DC-024,OH,Columbus,2000 Automation Ave
+DC-025,OH,Cleveland,1500 Innovation Dr
+DC-026,OH,Cleveland,1500 Innovation Dr
+DC-027,OH,Cincinnati,2500 Robotics Blvd
+DC-028,OH,Cincinnati,2500 Robotics Blvd
+DC-029,OH,Dayton,3000 Warehouse Pkwy
+DC-030,OH,Dayton,3000 Warehouse Pkwy
+DC-031,OH,Toledo,3500 Tech Park Rd
+DC-032,OH,Toledo,3500 Tech Park Rd
+DC-033,OH,Akron,4000 Industrial Ave
+DC-034,OH,Akron,4000 Industrial Ave
+DC-035,OH,Dublin,4500 Research Loop
+DC-036,OH,Dublin,4500 Research Loop
+DC-037,OH,Columbus,1000 Robot Way
+DC-038,OH,Columbus,2000 Automation Ave
+DC-039,OH,Cleveland,1500 Innovation Dr
+DC-040,OH,Cincinnati,2500 Robotics Blvd
