@@ -1,7 +1,7 @@
 /* Relation with all the robot model names released by Manufacturer_03 before 2024. */
 SELECT Name 
 FROM Manufacturer NATURAL JOIN Model 
-WHERE Manufacturer_Name = 'Manufacturer_03' AND Year < 2024 AND Payload_Capacity IS NULL AND Distance_Autonomy IS NULL AND Max_Speed IS NULL;
+WHERE Manufacturer_Name = 'Manufacturer_03' AND Year < 2024 AND Payload_Capacity= 'NULL' AND Distance_Autonomy= 'NULL' AND Max_Speed= 'NULL';
 
 /* Relation with the Robot Serial Number, Check Out Date, and Return Date, for all robots rented out by the customer with Customer_SSN= 100000048. */ 
 SELECT Robot_Serial_Number, Check_Out_Date, Return_Date 
@@ -16,17 +16,16 @@ GROUP BY Model_Number
 HAVING COUNT(DC_Serial_Number)<=2 
 ORDER BY Payload_Capacity; 
 
-/* The customer first name and last name along with the robot serial number of the robot they rented, for every order whose delivery was completed by the Driverless car with the serial number DC-023, and whose customer lives within a 10 miles radius of their facility. */
+/* The customer first name and last name along with the robot serial number of the robot they rented, for every order whose delivery was completed by the Driverless car with the serial number DC-009, and whose customer lives within a 10 miles radius of their facility. */
 SELECT First_Name, Last_Name, R.Robot_Serial_Number 
 FROM Driverless_Car AS D JOIN Robot AS R ON  D.DC_Serial_Number = R.DC_Serial_Number JOIN Rental_Order AS O ON R.Robot_Serial_Number = O.Robot_Serial_Number JOIN Person AS P ON O.Customer_SSN= P.SSN JOIN Customer AS C ON P.SSN= C.Customer_SSN 
-WHERE C.Facility_Distance <= 10 AND D.DC_Serial_Number = 'DC-023'; 
+WHERE C.Facility_Distance <= 10 AND D.DC_Serial_Number = 'DC-009'; 
 
-/*the total number of unique driverless cars that have picked up robots rented on the customer address 4520 Olentangy River Road Columbus OH 43214. */
-
+/*the total number of unique driverless cars that have picked up robots rented on the customer address 1820 Euclid Avenue Cleveland OH 44115. */
 SELECT COUNT(DC_Serial_Number) 
 FROM (SELECT DISTINCT DC_Serial_Number 
       FROM Rental_Order AS O JOIN Robot AS R ON O.Robot_Serial_Number = R.Robot_Serial_Number JOIN Person AS P ON O.Customer_SSN= P.SSN 
-      WHERE P.Address= '4520 Olentangy River Road Columbus OH 43214');
+      WHERE P.Address= '1820 Euclid Avenue Cleveland OH 44115');
 
 /* The Customer SSN and the total number of robots they have rented of the customer who has rented the most robots. */ 
 SELECT Customer_SSN, COUNT(Robot_Serial_Number) AS Robot_Serial_Number_Count 

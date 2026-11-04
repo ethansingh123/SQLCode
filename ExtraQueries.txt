@@ -1,7 +1,7 @@
-/* The number of robot models that have a camera sensor and are associated with a facility located in the city Columbus. */
+/* The number of robot models that have a depth camera sensor and are associated with a facility located in the city Columbus. */
 SELECT COUNT(DISTINCT Model_Number) 
 FROM Robot_Model_Sensory_Suite NATURAL JOIN ROBOT JOIN Model ON Robot_Model_Number = Model_Number JOIN Facility_Assets ON Serial_Number=Robot_Serial_Number JOIN FACILITY ON State = Facility_State AND City=Facility_City AND Street_Address=Facility_Street_Address 
-WHERE City = 'Columbus' AND Sensory_Suite = 'Camera'; 
+WHERE City = 'Columbus' AND Sensory_Suite = 'Depth_Camera'; 
 
 /* The serial numbers of all robots deleivered by the driverless car that has the serial number DC-009. */
 SELECT R.Robot_Serial_Number 
