@@ -58,7 +58,17 @@ Before returning the CSV, internally verify that all records meet the requiremen
 
 4. AI Evaluation
 I noticed that the data being generated about robot use and functionality was not consistent with these robots being used for home-based services. Originally, the generated data suggested these robots were being used in a factory. This is what I prompted to regenerate the data that needed to be modified:
-
 Regenerate the following table data based on the previous prompt and data requirements, but take into consideration these uses of the robots: A Rental Home Robot Facility offers a service to communities, providing service robots for diverse home-based services and daily assistance (e.g., childcare, elderly care, health assistance, health assistance, health assistance, cleaning, cooking, security) at a very attractive cost. Any person in the community can become a customer of the facility and rent out any available robot service, being charged a fee. The customer provides a start date and a last date for the rental. The robots are delivered to and picked up from the customer's home by a fleet of driverless vehicles.
 
+
+The facility asset serial numbers that were generated did not match robot or driverless car serial numbers, which they should have. Prompt used to regenerate data:
+Right now the facility asset serial numbers do not match any robot or driverless car serial numbers. Given these three csv files, regenerate this facility asset csv file where everything is the same, except the facility asset serial number should match exactly a serial number for robot or driverless car. Ensure that all robots and driverless cars match exactly one facility asset.
+
+
+Some employees were listed as facility managers, but the table Facility had all Null values for manager ssn. Prompt used to regenerate data:
+Given these csv files, regenerate facility so nothing changes except if an employee is a facility manager, put that employee's ssn in the manager ssn for the corresponding facility instead of null.
+
+
+Each Person must be an Employee or Customer, but some of the people generated in this dataset did not appear in either. Prompt used to regenerate data:
+Given these csv files, identify any person that does not exist in the employee and customer tables. A person must also appear in either customer or employee, not just person. Tell me which entries in person you discover that don't meet these requirements, then regenerate the person csv where nothing changes except any person that is not a customer or employee is removed.
 
